@@ -36,5 +36,5 @@ def find_the_cheese(array)
     then return "cheddar"
   else return nil
   end
-end 
+end
 end
