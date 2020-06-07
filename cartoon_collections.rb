@@ -1,9 +1,3 @@
-#dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
-#planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-
-#cheese_types = "cheddar"`, `"gouda"`, and
-#`"camembert"
-
 def roll_call_dwarves(array)# code an argument here
   i = 0
   while i < array.length
