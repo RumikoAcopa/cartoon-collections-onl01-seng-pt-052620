@@ -28,13 +28,15 @@ end
 #cheese_types = "cheddar", "gouda"`, and
 #"camembert"
 #ingredients = ["garlic", "rosemary", "bread"]
-def find_the_cheese(array)
+def find_the_cheese(no_cheese)
   cheese_types = ["cheddar", "gouda",
   "camembert"]
-  array.each do |element|
-  if cheese_types.include?(element) == "cheddar"
-    then return "cheddar"
-  else return nil
-  end
-end
-end
+  no_cheese.find {|cheese| cheese_types.include?(cheese)} 
+
+  
+  #array.each do |element|
+#  if cheese_types.include?(element) == "cheddar"
+    #then return "cheddar"
+  #else return nil
+
+
