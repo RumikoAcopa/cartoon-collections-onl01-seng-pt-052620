@@ -15,10 +15,10 @@ roll_call_dwarves(dwarves)
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
-def summon_captain_planet(array)
+def summon_captain_planet(calls)
   i = 0
   while i < array.length
-    new_array << array[i].upcase + "!"
+    new_array << array[i].capitalize + "!"
     i += 1
   end
   new_array
@@ -27,7 +27,7 @@ summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls(calls)
   i = 0
-  if array.any? {|i|} i.length > 4
+  if array.any? {|i| i.length > 4}
     return true
   else
     return false
@@ -36,9 +36,10 @@ def long_planeteer_calls(calls)
 end
 long_planeteer_calls(planeteer_calls)
 
-#cheese_types = "cheddar", "gouda"`, and
-#"camembert"
+
 #cheese_types = "cheddar", "gouda"`, and
 #"camembert"
 #ingredients = ["garlic", "rosemary", "bread"]
 def find_the_cheese(array)
+cheese_types.include?(type)
+end
