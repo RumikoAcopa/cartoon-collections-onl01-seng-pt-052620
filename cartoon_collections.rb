@@ -39,5 +39,6 @@ def find_the_cheese(array)
   "camembert"]
   array.each do |element|
   if cheese_types.include?(element)
+  else nil
   end
 end
