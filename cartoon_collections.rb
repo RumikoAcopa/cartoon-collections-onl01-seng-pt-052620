@@ -1,4 +1,4 @@
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+#dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 #planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 #cheese_types = "cheddar"`, `"gouda"`, and
@@ -11,9 +11,7 @@ def roll_call_dwarves(array)# code an argument here
     i = i += 1
     end
 end
-roll_call_dwarves(dwarves)
 
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(array)
   i = 0
@@ -27,12 +25,11 @@ end
 summon_captain_planet(planeteer_calls)
 
 def long_planeteer_calls(calls)
-  i = 0
+  
   if calls.any? {|i| i.length > 4}
     return true
   else
     return false
-    i = i + 1
   end
 end
 long_planeteer_calls(planeteer_calls)
