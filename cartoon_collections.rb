@@ -22,7 +22,7 @@ def summon_captain_planet(array)
   end
   new_array
 end
-summon_captain_planet(planeteer_calls)
+
 
 def long_planeteer_calls(calls)
 
@@ -32,7 +32,7 @@ def long_planeteer_calls(calls)
     return false
   end
 end
-long_planeteer_calls(planeteer_calls)
+
 
 #cheese_types = "cheddar", "gouda"`, and
 #"camembert"
