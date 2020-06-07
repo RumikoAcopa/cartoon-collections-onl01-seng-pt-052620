@@ -25,8 +25,7 @@ end
 
 
 def long_planeteer_calls(calls)
-
-   calls.any? {|call| call.length > 4}#planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+  calls.any? {|call| call.length > 4}#planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 end
 
 
